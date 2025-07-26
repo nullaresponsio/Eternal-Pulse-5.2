@@ -1,0 +1,1 @@
+implement as many upgrades as possible into scanner.py and provide full upgraded file; ensure that garbage code isn't running and make sure scanner.py prints to debug what it's doing during the run at least once every 10 seconds with actual details of what it's doing: 
