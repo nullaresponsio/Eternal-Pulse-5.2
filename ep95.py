@@ -215,6 +215,7 @@ class EvasionEngine:
             b"\x0d" +  # QUIC short header
             os.urandom(4) +  # Connection ID
             struct.pack(">I", random.randint(1, 1000))  # Packet number
+        )
         return pseudo_quic + packet
 
 class StatefulFuzzer:
